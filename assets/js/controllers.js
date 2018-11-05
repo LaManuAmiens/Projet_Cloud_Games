@@ -8,7 +8,7 @@ moduleCtrl.controller('MainCtrl', ['$scope', '$location', 'Cart', function ($sco
   $scope.addCart = function (game) {
     Cart.add(game);
     $location.url("/cart");
-  }
+  };
 }]);
 
 moduleCtrl.controller('CatalogCtrl', ['$scope', '$http', function ($scope, $http) {

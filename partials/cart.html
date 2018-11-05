@@ -1,4 +1,4 @@
-<!-- MODAL CART -->
+   <!-- MODAL CART -->
 <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -55,6 +55,7 @@
           <td class="price">{{row.game.price | number:2}} €</td>
           <td class="qty"><input type="number" name="numericInput" min="0" max="99" class="qty" ng-model="row.qty" /></td>
           <td class="total">{{row.game.price * row.qty | number:2}} €</td>
+          <td><a type="button" class="fas fa-skull-crossbones"></a></td>
       </tr>
       <tr ng-show="cart.empty()">
           <td colspan="5" class="vide">Votre panier est vide</td>
@@ -63,6 +64,6 @@
   <div class="totalHT">Total HT : {{cart.totalHT() | number:2}} €</div>
   <div class="totalTTC">Total TTC de votre commande : {{cart.total() | number:2}} €</div>
   <a role="button" class="btn btn-primary" href="#/catalog">Retour</a>
-  <a role="button" class="btn btn-primary" href="#/check">Checkout</a>
+  <a role="button" class="btn btn-primary" type="submit" href="#/check">Checkout</a>
 </div>
 <!-- CART -->
