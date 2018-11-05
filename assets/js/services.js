@@ -32,14 +32,9 @@ moduleSrv.factory('Cart', ['TVA', function (TVA) {
         },
         empty: function () {
             return Object.keys(this.rows).length == 0;
-<<<<<<< .merge_file_BYlusB
-        },
+        }
     };
 }]);
-
-  
-=======
-          },
+   $scope.removeItem = function (rows) {
+        $scope.cart.splice(rows);
 }
-}]);
->>>>>>> .merge_file_NBRQvB
