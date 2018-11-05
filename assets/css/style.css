@@ -432,3 +432,11 @@ width: 640px;
   }
 }
 /* Fin acordéon */
+/* Style footer */
+footer{
+  background-color: #aeb6b4;
+  height: 11rem;
+  padding-top: 2rem;
+  bottom: 0;
+  width: 100%;
+}
