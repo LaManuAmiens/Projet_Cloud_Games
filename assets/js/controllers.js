@@ -8,7 +8,7 @@ moduleCtrl.controller('MainCtrl', ['$scope', '$location', 'Cart', function ($sco
   $scope.addCart = function (game) {
     Cart.add(game);
     $location.url("/cart");
-  };
+  }
 }]);
 
 moduleCtrl.controller('CatalogCtrl', ['$scope', '$http', function ($scope, $http) {
@@ -48,5 +48,4 @@ moduleCtrl.controller('CheckCtrl', ['$scope', '$http', function ($scope, $http) 
   $http.get("assets/data/catalog.json").success(function (data) {
     $scope.catalog = data;
   });
-  }]);
-  
+}]);
