@@ -1,0 +1,27 @@
+[
+  {
+    "ref": "ACO",
+    "name": "Assassin's Creed Origin",
+    "intro": "Assassin's Creed Origin est une nouvelle entrée dans la franchise.",
+    "price": 18.90
+  },
+
+  {
+    "ref": "TLOZ",
+    "name": "The Legend Of Zelda",
+    "intro": "The Legend of Zelda : Breath of the Wild est un jeu d'action/aventure.",
+    "price": 52.90
+  },
+
+  {
+    "ref": "GTA5",
+    "name": "Grand Theft Auto 5",
+    "intro": "Grand Theft Auto V vous place dans la peau de trois personnages inédits.",
+    "price": 24.90
+  },
+  {    "ref": "ETRON",
+    "name": "E-Tron (version Beta)",
+    "intro": "Le jeu du futur de demain, mais pas aujourd'hui",
+    "price": 15.00
+  }
+]

@@ -1,0 +1,68 @@
+<!-- MODAL CART -->
+<div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Votre panier</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-hover">
+          <thead>
+           <tr>
+              <th class="item" colspan="2">Article</th>
+              <th class="price">Prix</th>
+              <th class="qty">Quantité</th>
+              <th class="total">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+           <tr class="game" ng-repeat="row in cart.rows">
+              <td class="img"><img ng-src="assets/img/{{row.game.ref}}.jpg" height="80px"/></td>
+              <td class="item">{{row.game.name}}</td>
+              <td class="price">{{row.game.price | number:2}} €</td>
+              <td class="qty"><input type="number" name="numericInput" min="0" max="99" class="qty" ng-model="row.qty" /></td>
+              <td class="total">{{row.game.price * row.qty | number:2}} €</td>
+           </tr>
+           <tr ng-show="cart.empty()">
+              <td colspan="5" class="vide">Votre panier est vide</td>
+           </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <a role="button" class="btn btn-outline-primary" data-dismiss="modal">Fermer</a>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- MODAL CART -->
+  <!-- CART -->
+<div class="container-fluid bg-light">
+  <h2>Votre panier</h2>
+  <table id="cart">
+      <tr>
+          <th class="item" colspan="2">Article</th>
+          <th class="price">Prix</th>
+          <th class="qty">Quantité</th>
+          <th class="total">Total</th>
+      </tr>
+      <tr class="game" ng-repeat="row in cart.rows">
+          <td class="img"><img ng-src="assets/img/{{row.game.ref}}.jpg" height="100px"/></td>
+          <td class="item">{{row.game.name}}</td>
+          <td class="price">{{row.game.price | number:2}} €</td>
+          <td class="qty"><input type="number" name="numericInput" min="0" max="99" class="qty" ng-model="row.qty" /></td>
+          <td class="total">{{row.game.price * row.qty | number:2}} €</td>
+      </tr>
+      <tr ng-show="cart.empty()">
+          <td colspan="5" class="vide">Votre panier est vide</td>
+      </tr>
+  </table>
+  <div class="totalHT">Total HT : {{cart.totalHT() | number:2}} €</div>
+  <div class="totalTTC">Total TTC de votre commande : {{cart.total() | number:2}} €</div>
+  <a role="button" class="btn btn-primary" href="#/catalog">Retour</a>
+  <a role="button" class="btn btn-primary" href="#/check">Checkout</a>
+</div>
+<!-- CART -->

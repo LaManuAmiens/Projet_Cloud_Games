@@ -1,0 +1,27 @@
+[
+    {
+        "ref": "STALK2",
+        "name": "S.T.A.L.K.E.R.2",
+        "intro": "La suite du désormais célèbre S.T.A.L.K.E.R : Shadow of Chernobyl.",
+        "price": 18.90
+    },
+    {
+        "ref": "FALL",
+        "name": "Fallout",
+        "intro": "Fallout est un jeu de rôle sur PC vous projetant dans un univers post-nucléaire.",
+        "price": 37.90
+    },
+    {
+        "ref": "DOKO",
+        "name": "Destiny of K-Os",
+        "intro": "Si vous avez une question, voir Nicolas.V",
+        "price": 18.90
+    },
+    {
+        "ref": "ODLG",
+        "name": "Shadow of War",
+        "intro": "La Terre du Milieu : L'Ombre de la Guerre est un jeu d'action/aventure.",
+        "price": 23.90
+    }
+
+]

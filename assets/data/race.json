@@ -1,0 +1,26 @@
+[
+    {
+        "ref": "PRCARS",
+        "name": "Project Cars",
+        "intro": "Jeu de course automobile au moteur extrêmement réaliste.",
+        "price": 18.90
+    },
+    {
+        "ref": "TCREW",
+        "name": "The Crew",
+        "intro": "The Crew est un jeu de course sur PlayStation 4.",
+        "price": 18.90
+    },
+    {
+        "ref": "DRALLY",
+        "name": "DiRT Rally",
+        "intro": "DiRT Rally est une simulation de course de rallye.",
+        "price": 24.90
+    },
+    {
+        "ref": "FRZHRZ",
+        "name": "Forza Horizon",
+        "intro": "Ce jeu se déroule dans les montagnes du Colorado.",
+        "price": 24.90
+    }
+]

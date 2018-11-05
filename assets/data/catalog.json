@@ -1,0 +1,91 @@
+[
+  {
+    "ref": "ACO",
+    "name": "Assassin's Creed Origin",
+    "intro": "Assassin's Creed Origin est une nouvelle entrée dans la franchise.",
+    "price": 18.90
+  },
+  {
+    "ref": "TLOZ",
+    "name": "The Legend Of Zelda",
+    "intro": "The Legend of Zelda : Breath of the Wild est un jeu d'action/aventure.",
+    "price": 52.90
+  },
+  {
+    "ref": "GTA5",
+    "name": "Grand Theft Auto 5",
+    "intro": "Grand Theft Auto V vous place dans la peau de trois personnages inédits.",
+    "price": 24.90
+  },
+  {    "ref": "ETRON",
+    "name": "E-Tron (version Beta)",
+    "intro": "Le jeu du futur de demain, mais pas aujourd'hui",
+    "price": 15.00
+  },
+  {
+      "ref": "STALK2",
+      "name": "S.T.A.L.K.E.R.2",
+      "intro": "La suite du désormais célèbre S.T.A.L.K.E.R : Shadow of Chernobyl.",
+      "price": 18.90
+  },
+  {
+      "ref": "FALL",
+      "name": "Fallout",
+      "intro": "Fallout est un jeu de rôle sur PC vous projetant dans un univers post-nucléaire.",
+      "price": 37.90
+  },
+  {
+      "ref": "DOKO",
+      "name": "Destiny of K-Os",
+      "intro": "Si vous avez une question, voir Nicolas.V",
+      "price": 18.90
+  },
+  {
+      "ref": "ODLG",
+      "name": "Shadow of War",
+      "intro": "La Terre du Milieu : L'Ombre de la Guerre est un jeu d'action/aventure.",
+      "price": 23.90
+  },
+  {
+    "ref": "Civ5",
+    "name": "Civilisation 5",
+    "intro": "Affûtez vos tactiques et stratégies pour garantir à votre clan une victoire sur le champ de bataille.",
+    "price": 18.90
+  },
+  {
+    "ref": "STCRFT",
+    "name": "Starcraft",
+    "intro": "Starcraft est un jeu de stratégie sur PC prenant place dans un univers futuriste.",
+    "price": 18.90
+  },
+  {
+    "ref": "M2TW",
+    "name": "Medieval 2 : Total War ",
+    "intro": "Medieval II : Total War sur PC est un jeu de stratégie qui se déroule entre 1080 et 1503.",
+    "price": 23.90
+  },
+  {
+      "ref": "PRCARS",
+      "name": "Project Cars",
+      "intro": "Project CARS est une simulation de course automobile au moteur extrêmement réaliste.",
+      "price": 18.90
+  },
+  {
+      "ref": "TCREW",
+      "name": "The Crew",
+      "intro": "The Crew est un jeu de course sur PlayStation 4.",
+      "price": 18.90
+  },
+  {
+      "ref": "DRALLY",
+      "name": "DiRT Rally",
+      "intro": "DiRT Rally est une simulation de course de rallye.",
+      "price": 24.90
+  },
+  {
+      "ref": "FRZHRZ",
+      "name": "Forza Horizon",
+      "intro": "Ce jeu se déroule dans les montagnes du Colorado.",
+      "price": 24.90
+  }
+]
