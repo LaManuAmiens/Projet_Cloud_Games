@@ -30,9 +30,6 @@ moduleSrv.factory('Cart', ['TVA', function (TVA) {
         totalHT: function () {
             return this.total() * 100 / (100 + TVA);
         },
-        empty: function () {
-            return Object.keys(this.rows).length == 0;
-        },
     }
 }]);
 

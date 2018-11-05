@@ -16,6 +16,9 @@ $(document).ready(function () {
       $('.collapse.in').toggleClass('in');
       $('a[aria-expanded=true]').attr('aria-expanded', 'false');
   });
+  // SIDE BAR
+
+  // CAROUSEL
   $(document).ready(function() {
     $("#myCarousel").on("slide.bs.carousel", function(e) {
       var $e = $(e.relatedTarget);
@@ -41,3 +44,4 @@ $(document).ready(function () {
     });
   });
 });
+// CAROUSEL

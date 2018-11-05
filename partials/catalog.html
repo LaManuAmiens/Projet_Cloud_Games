@@ -1,59 +1,57 @@
-    <!-- Entête titre et logo -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container"><img src="assets/img/sheep.png" alt="LogoSheet" border=3 align=left>
-    <h1 class="display-1">Cloud Games</h1>
-    <p class="lead"><em>Bienvenue dans notre interface Cloud de jeux vidéos en ligne.<em></p>
-    <p><em>Nos références classées par catégories, vous embarqueront dans l'univers de votre choix. A vos manettes !<em></p>
-    </div>
-  </div>
-<!-- Carousel accordéon avant-première  -->
-<p><center><em><font size="+2">Nos exclusivités en avant-première</font><em><center></p>
-  <div class="accordian">
-  <ul>
-    <li>
-      <div class="image_title">
-        <a href="#/strat">L'Olympiade d'Azur</a>
+<!-- Entête titre et logo -->
+<div class="jumbotron jumbotron-fluid text-center">
+    <p class="display-5"><em>Bienvenue dans notre interface Cloud de jeux vidéos en ligne.<em></p>
+      <p><em>Nos références classées par catégories, vous embarqueront dans l'univers de votre choix. A vos manettes !<em></p>
       </div>
-      <img src="assets/img/olymp.png"/>
-    </a>
-  </li>
-  <li>
-    <div class="image_title">
-      <a href="#/rpg">Destiny of K-Os</a>
     </div>
-    <img src="assets/img/kos.png"/>
-  </a>
-</li>
-<li>
-  <div class="image_title">
-    <a href="#/action">E-TRON</a>
+    <!-- Carousel accordéon avant-première  -->
+    <p><center><em><font size="+2">Nos exclusivités en avant-première</font><em><center></p>
+      <div class="accordian">
+        <ul>
+          <li>
+            <div class="image_title">
+              <a href="#/strat">L'Olympiade d'Azur
+              </div>
+              <img src="assets/img/olymp.png"/>
+            </a>
+          </li>
+          <li>
+            <div class="image_title">
+              <a href="#/rpg">Destiny of K-Os
+              </div>
+              <img src="assets/img/kos.png"/>
+            </a>
+          </li>
+          <li>
+            <div class="image_title">
+              <a href="#/action">E-TRON
+              </div>
+              <img src="assets/img/etronban.png"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Présentation games store -->
+    </div>
   </div>
-  <img src="assets/img/etronban.png"/>
-</a>
-</li>
-</ul>
-</div>
-<!-- Présentation games store -->
+  <div class="card-group d-inline-block p-auto text-center" ng-model="catalog" ng-repeat="game in catalog | filter:search" style="width: 20rem;">
+   <div class="hovereffect">
+    <img class="card-img-top" ng-src="assets/img/{{game.ref}}.jpg">
   </div>
-</div>
-<div class="card-group d-inline-block p-auto text-center" ng-model="catalog" ng-repeat="game in catalog | filter:search" style="width: 20rem;">
-	<div class="hovereffect">
-		<img class="card-img-top" ng-src="assets/img/{{game.ref}}.jpg">
-  	</div>
-	<div class="card-body d-flex flex-column">
-		<h5 class="card-title">{{game.name}}</h5>
-		<p class="card-text mb-auto" ng-model="intro">{{game.intro}}</p>
-		<div class="card-footer mt-auto pt-3">
-			<span class="price">{{game.price | number:2}} €</span><br>
-			<a class="btn btn-primary add" ng-click="addCart(game)"  data-toggle="modal" data-target="#modalCart" role="button">Acheter</a>
-		</div>
-	</div>
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{game.name}}</h5>
+    <p class="card-text mb-auto" ng-model="intro">{{game.intro}}</p>
+    <div class="card-footer mt-auto pt-3">
+     <span class="price">{{game.price | number:2}} €</span><br>
+     <a class="btn btn-primary add" ng-click="addCart(game)"  data-toggle="modal" data-target="#modalCart" role="button">Acheter</a>
+   </div>
+ </div>
 </div>
 <footer>
-  <div class="row">
-    <div class="col-sm-12 text-center">
-      <a target="_blank" href="https://www.facebook.com/Cloud_Games-495509190946321/"><img src="assets/img/facebook.png" alt="logo_facebook"></a>
-      <div class="footer-copyright text-center py-3">© 2018 Copyright : Cloud Games</div>
-    </div>
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <a target="_blank" href="https://www.facebook.com/Cloud_Games-495509190946321/"><img src="assets/img/facebook.png" alt="logo_facebook"></a>
+    <div class="footer-copyright text-center py-3">© 2018 Copyright : Cloud Games</div>
   </div>
+</div>
 </footer>

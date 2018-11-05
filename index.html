@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body lang="fr" dir="ltr" ng-app="gamestore" ng-controller="MainCtrl">
   <!-- SIDE BAR -->
@@ -57,9 +56,17 @@
         <i class="fas fa-align-justify"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav mt-2 ml-auto">
+          <li>
+            <img src="assets/img/sheep.png" alt="LogoSheet" height="50px">
+           </li>
+           <li>
+            <p class="ml-1 mt-2" style="font-weight: bold; color: black">Cloud Games</p>
+          </li>
+        </ul>
         <ul class="nav navbar-nav ml-auto">
           <li>
-            <input class="mr-5"type="text" ng-model="search" placeholder="Rechercher">
+            <input class="mr-5" type="text" ng-model="search" placeholder="Rechercher">
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
