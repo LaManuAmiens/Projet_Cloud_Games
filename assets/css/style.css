@@ -175,7 +175,7 @@ a.article:hover {
 }
 /*SIDE BAR*/
 @media all and (max-width: 600px){
-  
+
     button.btn.btn-dark{
         display: none;
     }
@@ -303,4 +303,3 @@ div.card-body{
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
-
