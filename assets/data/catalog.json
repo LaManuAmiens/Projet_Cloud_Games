@@ -1,4 +1,21 @@
 [
+  { "ref": "ETRON",
+    "name": "E-Tron (version Beta)",
+    "intro": "Le jeu du futur de demain, mais pas aujourd'hui",
+    "price": 15.00
+  },
+  {
+    "ref": "DOKO",
+    "name": "Destiny of K-Os",
+    "intro": "Si vous avez une question, voir Nicolas.V",
+    "price": 18.90
+  },
+  {
+    "ref": "LODA",
+    "name": "Les Olympiades d'Azur",
+    "intro": "Jeu de stratégie et de hasard crée par F.S.B.",
+    "price":16.90
+  },
   {
     "ref": "ACO",
     "name": "Assassin's Creed Origin",
@@ -17,34 +34,23 @@
     "intro": "Grand Theft Auto V vous place dans la peau de trois personnages inédits.",
     "price": 24.90
   },
-  {    "ref": "ETRON",
-    "name": "E-Tron (version Beta)",
-    "intro": "Le jeu du futur de demain, mais pas aujourd'hui",
-    "price": 15.00
+  {
+    "ref": "STALK2",
+    "name": "S.T.A.L.K.E.R.2",
+    "intro": "La suite du désormais célèbre S.T.A.L.K.E.R : Shadow of Chernobyl.",
+    "price": 18.90
   },
   {
-      "ref": "STALK2",
-      "name": "S.T.A.L.K.E.R.2",
-      "intro": "La suite du désormais célèbre S.T.A.L.K.E.R : Shadow of Chernobyl.",
-      "price": 18.90
+    "ref": "FALL",
+    "name": "Fallout",
+    "intro": "Fallout est un jeu de rôle sur PC vous projetant dans un univers post-nucléaire.",
+    "price": 37.90
   },
   {
-      "ref": "FALL",
-      "name": "Fallout",
-      "intro": "Fallout est un jeu de rôle sur PC vous projetant dans un univers post-nucléaire.",
-      "price": 37.90
-  },
-  {
-      "ref": "DOKO",
-      "name": "Destiny of K-Os",
-      "intro": "Si vous avez une question, voir Nicolas.V",
-      "price": 18.90
-  },
-  {
-      "ref": "ODLG",
-      "name": "Shadow of War",
-      "intro": "La Terre du Milieu : L'Ombre de la Guerre est un jeu d'action/aventure.",
-      "price": 23.90
+    "ref": "ODLG",
+    "name": "Shadow of War",
+    "intro": "La Terre du Milieu : L'Ombre de la Guerre est un jeu d'action/aventure.",
+    "price": 23.90
   },
   {
     "ref": "Civ5",
@@ -65,27 +71,27 @@
     "price": 23.90
   },
   {
-      "ref": "PRCARS",
-      "name": "Project Cars",
-      "intro": "Project CARS est une simulation de course automobile au moteur extrêmement réaliste.",
-      "price": 18.90
+    "ref": "PRCARS",
+    "name": "Project Cars",
+    "intro": "Project CARS est une simulation de course automobile au moteur extrêmement réaliste.",
+    "price": 18.90
   },
   {
-      "ref": "TCREW",
-      "name": "The Crew",
-      "intro": "The Crew est un jeu de course sur PlayStation 4.",
-      "price": 18.90
+    "ref": "TCREW",
+    "name": "The Crew",
+    "intro": "The Crew est un jeu de course sur PlayStation 4.",
+    "price": 18.90
   },
   {
-      "ref": "DRALLY",
-      "name": "DiRT Rally",
-      "intro": "DiRT Rally est une simulation de course de rallye.",
-      "price": 24.90
+    "ref": "DRALLY",
+    "name": "DiRT Rally",
+    "intro": "DiRT Rally est une simulation de course de rallye.",
+    "price": 24.90
   },
   {
-      "ref": "FRZHRZ",
-      "name": "Forza Horizon",
-      "intro": "Ce jeu se déroule dans les montagnes du Colorado.",
-      "price": 24.90
+    "ref": "FRZHRZ",
+    "name": "Forza Horizon",
+    "intro": "Ce jeu se déroule dans les montagnes du Colorado.",
+    "price": 24.90
   }
 ]

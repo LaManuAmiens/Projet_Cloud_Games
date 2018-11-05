@@ -32,9 +32,6 @@ moduleSrv.factory('Cart', ['TVA', function (TVA) {
         },
         empty: function () {
             return Object.keys(this.rows).length == 0;
-        }
-    };
-}]);
-   $scope.removeItem = function (rows) {
-        $scope.cart.splice(rows);
+          },
 }
+}]);
