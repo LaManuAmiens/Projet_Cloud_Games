@@ -1,5 +1,11 @@
 [
   {
+    "ref": "LODA",
+    "name": "Les Olympiades d'Azur",
+    "intro": "Jeu de stratégie et de hasard crée par F.S.B.",
+    "price":16.90
+  },
+  {
     "ref": "ACO",
     "name": "Assassin's Creed Origin",
     "intro": "Assassin's Creed Origin est une nouvelle entrée dans la franchise.",
