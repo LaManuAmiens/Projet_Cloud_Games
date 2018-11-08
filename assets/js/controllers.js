@@ -44,8 +44,3 @@ moduleCtrl.controller('StratCtrl', ['$scope', '$http', function ($scope, $http) 
     $scope.strat = data;
   });
 }]);
-moduleCtrl.controller('CheckCtrl', ['$scope', '$http', function ($scope, $http) {
-  $http.get("assets/data/catalog.json").success(function (data) {
-    $scope.catalog = data;
-  });
-}]);
